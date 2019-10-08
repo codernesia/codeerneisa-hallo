@@ -1,0 +1,17 @@
+{
+    "name": "codernesia/rindu-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "muhamad abdul mubarok",
+            "email": "webmastermonsternesia@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"codernesia\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
